@@ -1,0 +1,2 @@
+docker run --name artifactory -p 8081:8081 -p 8082:8082  -v /home/user/Working/artifactory/var/:/var/opt/jfrog/artifactory releases-docker.jfrog.io/jfrog/artifactory-oss:latest
+
